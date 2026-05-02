@@ -1,0 +1,14 @@
+stdout.txt :
+Hello freeCodeCamp
+
+stderr.txt :
+./script.sh: line 4: bad_command: command not found
+
+script.sh :
+#!/bin/bash
+read NAME
+echo Hello $NAME
+bad_command
+
+name.txt :
+freeCodeCamp
